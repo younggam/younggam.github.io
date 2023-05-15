@@ -1,8 +1,8 @@
 import os
 
-def sum(from: int, to: int) -> int:
+def sum(from_: int, to: int) -> int:
     sum = 0
-    for i in range(from, to + 1):
+    for i in range(from_, to + 1):
         sum += i
     return sum
   
