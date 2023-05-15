@@ -7,4 +7,4 @@ def sum(from: int, to: int) -> int:
     return sum
   
 def test_sum():
-    assert sum(int(os.environ["SUM_INPUT_FROM"]),int(os.environ["SUM_INPUT_FROM"]))==5050
+    assert sum(int(os.environ["SUM_INPUT_FROM"]),int(os.environ["SUM_INPUT_TO"]))==5050
